@@ -5,7 +5,7 @@ import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./app/store";
-import { disableReactDevTools } from "./app/utils/disableReactDevTools";
+import { disableReactDevTools } from "@fvilers/disable-react-devtools";
 
 if (process.env.NODE_ENV === "production") disableReactDevTools();
 
